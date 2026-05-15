@@ -1,7 +1,5 @@
 NEW PROJECT TODO's
-- Make sure typescript+eslint+vite+prettier+husky+editorconfig all work together best practice
 - Delete vite generated files that are not needed.
-- Fix files like gitignore...
 - Think of other TODO's from older project about copying files(docker, package.json deps...)
 
 
