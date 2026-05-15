@@ -1,0 +1,47 @@
+NEW PROJECT TODO's
+- Add prettier
+- Add husky
+- Add editorconfig
+- Make sure typescript+eslint+vite+prettier+husky+editorconfig all work together best practice
+- Delete vite generated files that are not needed.
+- Fix files like gitignore...
+- Think of other TODO's from older project about copying files(docker, package.json deps...)
+
+
+
+OLD TODOS:
+- finish carousel
+- check that running project also checks eslint and typescript
+- fix all tests to format, given, should + use test ids + use test and not it for the new format
+- CHECK TODOs + translations TODOs
+- fix github cicd
+- Restyle all inputs + maybe don't use libraries for select and datepicker - label+input colors and style effects + checkbox+radio aligning
+- add normal requests
+- check error sending from requests
+- gallery
+- dashboard (custom dashboard with custom widgets like Tal's)
+- finish all pages (add id page, multiple ids page)
+- finish all table features (pagination + styles)
+- add missing translations from english to hebrew + fix ui problems in hebrew
+- other style and other missions in keep + check all of styled`` css`` to see of things can be in colors
+- check to see if some things can be in features instead of global folders
+- add more stories - examples in default stories folder + icons story
+- my own dropdown/select components - like in dex ui kit
+- my own datepicker component - like in dex ui kit
+
+- useQuery - react-query => for get and post - check it out and them implement for table, form and gallery - https://www.youtube.com/watch?app=desktop&v=PmPkAAu_QF4&ab_channel=Joshtriedcoding
+- check browser 'issues'
+- add simple chat with webSockets
+- search rabbitMQ
+- push notifications
+- add mobx
+- add redux toolkit
+- check every file with alt+shift+o and no errors/ ts errors + translate
+- k8s again - using the dockerhub image (code is commented)
+
+
+libs - axios and other facades/strategy (kind of) for simple replaceable libs
+context - all of the recoil/redux/mobx global state
+features - main folder has features like authentication, that will be like a mini project with folders of its own
+components - global app components
+ui-kit - global singular components with storybook and unit tests
