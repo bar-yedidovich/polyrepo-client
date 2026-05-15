@@ -16,20 +16,13 @@ export default defineConfig([
 		// These provide pre-configured best practices for each tool
 		extends: [
 			js.configs.recommended, // ESLint JS best practices (unused vars, unreachable code, etc.)
-			tseslint.configs.recommended, // TypeScript type safety rules
+			...tseslint.configs.recommended, // TypeScript type safety rules
 			react.configs.flat.recommended, // React best practices (keys in lists, prop validation, etc.)
 			reactHooks.configs.flat.recommended, // Hook rules (dependency arrays, hook call order)
 			reactRefresh.configs.vite, // Vite HMR specific rules
 			jsxA11y.flatConfigs.recommended, // Accessibility (alt text, form labels, etc.)
 			prettierConfig, // Disables formatting conflicts with Prettier
 		],
-		// Plugin registration - makes rules from these plugins available
-		plugins: {
-			react,
-			'react-hooks': reactHooks,
-			'react-refresh': reactRefresh,
-			'jsx-a11y': jsxA11y,
-		},
 		// Custom rule overrides
 		rules: {
 			'react/react-in-jsx-scope': 'off', // React 17+ doesn't need import React

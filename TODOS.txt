@@ -1,5 +1,4 @@
 NEW PROJECT TODO's
-- Add husky
 - Make sure typescript+eslint+vite+prettier+husky+editorconfig all work together best practice
 - Delete vite generated files that are not needed.
 - Fix files like gitignore...
